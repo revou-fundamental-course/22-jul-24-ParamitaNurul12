@@ -1,0 +1,23 @@
+/* Ini CSS */
+
+nav {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-icon {
+    border: 1px solid;
+    width: 100px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+    border: 1px solid;
+    padding: 8px;
+}
