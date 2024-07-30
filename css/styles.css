@@ -21,3 +21,29 @@ nav {
     border: 1px solid;
     padding: 8px;
 }
+
+.header-content {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+.content {
+    border: 1px solid;
+    width: 100%;
+    height: 250px;
+}
+
+.content-image {
+    border: 1px solid;
+    width: 100%;
+    height: 175px;
+}
+
+.item-icon {
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+}
