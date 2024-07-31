@@ -33,17 +33,42 @@ nav {
 .content {
     border: 1px solid;
     width: 100%;
-    height: 250px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-image {
     border: 1px solid;
     width: 100%;
-    height: 175px;
+    height: 100%;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-icon {
     border: 1px solid;
     width: 25px;
     height: 25px;
+    border-radius: 50%;
 }
+
+input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid navy;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+
+  button {
+    width: 75%;
+  }
