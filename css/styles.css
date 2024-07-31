@@ -1,5 +1,6 @@
 /* Ini CSS */
 
+/* Ini untuk nav */
 nav {
     border: 1px solid;
     display: flex;
@@ -22,14 +23,17 @@ nav {
     padding: 8px;
 }
 
+/* Ini untuk judul header */
 .header-content {
     text-align: center;
 }
 
+/* Ini untuk main content */
 .main-content {
     display: flex;
 }
 
+/* Ini utamanya untuk banner content autoslide */
 .content {
     border: 1px solid;
     width: 100%;
@@ -45,6 +49,7 @@ nav {
     height: 100%;
 }
 
+/* Bagian ini untuk testimoni banner content */
 .main-item {
     display: flex;
     align-items: center;
@@ -58,7 +63,8 @@ nav {
     border-radius: 50%;
 }
 
-input {
+/* Ini untuk form input */
+input, select {
     width: 75%;
     padding: 12px 20px;
     margin: 8px 0;

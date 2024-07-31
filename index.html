@@ -7,6 +7,7 @@
 
     <body>
         <nav>
+            <!-- Ini untuk header -->
             <header>
                 <div>
                     <img class="logo-icon" src="assets/pexels-nubikini-386009.jpg" alt="yellow minivan">
@@ -21,6 +22,7 @@
         </nav>
         
         <main>
+            <!-- Ini untuk konten utama -->
             <article class="header-content">
                 <header>
                     <h1>Widya Travel Agent</h1>
@@ -30,10 +32,12 @@
             </article>
 
             <section class="main-content">
+
+                <!-- Ini untuk banner content autoslide -->
                 <article class="content">
                     <div>
                         <img class="content-image" src="assets/pexels-axp-photography-giza-pyramids.png" alt="pyramids of Giza">
-                    </div>
+                    </div>                    
 
                     <div class="main-item">
                         <div><img class="item-icon" src="assets/woman-icon.png">
@@ -46,12 +50,23 @@
                     </div>
                 </article>
 
+                <!-- Ini untuk form input -->
                 <form class="content">
                     <label for="fullname">First & Last Name</label>
-                    <input type="text" id="fullname" name="name" placeholder="Your name..">
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name..">
 
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
+                    
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest">
+                    <option value="romantic-getaway">Romantic Getaway</option>
+                    <option value="history">History</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="culture">Culture</option>
+                    <option value="family-fun">Family Fun</option>
+                    </select>
+
                     <button type="button">Submit</button>
                 </form>
             </section>
@@ -60,5 +75,6 @@
         <footer>
 
         </footer>
+        <script> src="script.js"</script>
     </body>
 </html>
