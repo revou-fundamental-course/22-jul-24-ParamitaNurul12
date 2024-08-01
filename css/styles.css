@@ -3,7 +3,6 @@
 /* Ini header */
 
 nav {
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -11,7 +10,6 @@ nav {
 }
 
 .logo-icon {
-    border: 1px solid;
     width: 100px;
 }
 
@@ -20,7 +18,6 @@ nav {
 }
 
 .nav-item {
-    border: 1px solid;
     padding: 8px;
 }
 
@@ -35,7 +32,6 @@ nav {
 }
 
 .content {
-    border: 1px solid;
     width: 50%;
     height: 500px;
     margin-top: 0px;
@@ -174,6 +170,7 @@ input, select {
 
 .nomor-promo {
   display: flex;
+  align-items: center;
 }
 
 .nomor-icon {
@@ -187,4 +184,16 @@ input, select {
 
 .paket-promo {
   display: flex;
+  align-items: center;
+}
+
+/* Ini closing statement */
+.closing-statement {
+  text-align: center;
+}
+
+/* Ini footer */
+.footer {
+  display: flex;
+  justify-content: center;
 }
