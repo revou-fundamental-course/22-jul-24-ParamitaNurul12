@@ -1,2 +1,3 @@
-// untuk banner autoslide
+// Ini Javascript
 
+console.log('hello world');

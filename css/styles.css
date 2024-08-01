@@ -1,6 +1,7 @@
 /* Ini CSS */
 
 /* Ini header */
+
 nav {
     border: 1px solid;
     display: flex;
@@ -24,6 +25,7 @@ nav {
 }
 
 /* Ini content */
+
 .header-content {
     text-align: center;
 }
@@ -61,6 +63,7 @@ nav {
 }
 
 /* Ini untuk form input */
+
 input, select {
     width: 75%;
     padding: 12px 20px;
