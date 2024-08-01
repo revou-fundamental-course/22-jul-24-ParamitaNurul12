@@ -61,7 +61,7 @@ nav {
 }
 
 /* Ini untuk form input */
-input {
+input, select {
     width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
