@@ -31,11 +31,11 @@
                 <p>Explore the beauty of the world with us!</p>
             </article>
 
+            <!-- Ini untuk main content -->
             <section class="main-content">
-
-                <!-- Ini untuk banner content autoslide -->
-
                 <article class="content">
+
+                    <!-- Ini untuk banner content autoslide -->
                     <div>
                         <img class="content-image" src="assets/pexels-axp-photography-giza-pyramids.png" alt="pyramids of Giza">
                     </div>                    
@@ -58,7 +58,7 @@
                     <p>Our sales will contact you in 1 x 24 hours.</p>
                     
                     <label for="fullname">First & Last Name</label>
-                    <input type="text" id="fullname" name="name" placeholder="Your name..">
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name..">
 
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
@@ -72,7 +72,7 @@
                     <option value="family">Having a fun & quality time with family</option>
                     </select>
                     
-                    <button type="button">Submit</button>
+                    <button id="btn-submit" type="button" onclick="formValidation()">Submit</button>
                 </form>
             </section>
         </main>
