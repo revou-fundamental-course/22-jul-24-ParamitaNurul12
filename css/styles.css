@@ -38,7 +38,7 @@ nav {
     border: 1px solid;
     width: 50%;
     height: 500px;
-    margin-top: 1px;
+    margin-top: 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -165,3 +165,26 @@ input, select {
   button {
     width: 75%;
   }
+
+  /* Ini untuk promosi */
+
+.header-promosi {
+  text-align: center;
+}
+
+.nomor-promo {
+  display: flex;
+}
+
+.nomor-icon {
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* Ini untuk promosi paket */
+
+.paket-promo {
+  display: flex;
+}
